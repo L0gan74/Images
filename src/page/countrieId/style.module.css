@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.wrapper h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.wrapper img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+.main {
+  padding-top: 60px;
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.item {
+  width: auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid white;
+  position: relative;
+  bottom: -15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.item:hover {
+  bottom: 0;
+  transition: 0.9s;
+}
+
+.item img {
+  width: 340px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.item h3 {
+  color: white;
+  padding-top: 10px;
+  font-size: 20px;
+}
